@@ -1,5 +1,5 @@
 # shopping-cart-api
-Front-End Aplication test for Software Engineer in JusBrasil using NodeJS, GraphQL, MySql, Knex.
+Back-End Aplication test for Software Engineer in JusBrasil using NodeJS, GraphQL, MySql, Knex.
 
 # Instructions to start the project
 * Install MySql on your machine
