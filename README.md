@@ -8,5 +8,7 @@ Back-End Aplication test for Software Engineer in JusBrasil using NodeJS, GraphQ
 * Open project root and execute first command: npm i 
 * Execute second command: node server.js
 
- Query Application Preview
+Query Application Preview
 ![image](https://user-images.githubusercontent.com/25927724/120257706-12565580-c267-11eb-9a97-99443eb12558.png)
+
+Multation Application Preview
