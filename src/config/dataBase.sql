@@ -61,15 +61,14 @@ INSERT INTO `products` (`id`,`photo`,`title`,`price`,`reference`,`amount`,`avail
 
 DROP TABLE IF EXISTS `sales`;
 CREATE TABLE `sales` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL,
   `title` varchar(100) NOT NULL,
   `price` float NOT NULL,
   `reference` varchar(45) NOT NULL,
   `amount` int NOT NULL,
   `available` int NOT NULL,
-  `id_product` int NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `photo` longtext
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `sales`

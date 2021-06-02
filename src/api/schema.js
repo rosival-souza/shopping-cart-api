@@ -17,9 +17,8 @@ const salesAttribs = `
     reference: String!
     amount: Int!
     available: Int!
-    id_product: Int!
+    photo: String
 `
-
 const typeDefs = `
     type Product {
         ${productsAttribs}
@@ -41,7 +40,7 @@ const typeDefs = `
     }
     type Mutation {
         createProduct(input: ProductInput) : Product
-        createSales(input: SalesInput) : Sales
+        createSales(input: [SalesInput]) : Sales
     }
 `
 

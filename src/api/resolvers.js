@@ -25,17 +25,18 @@ module.exports ={
             return await db('products').where({ id }).first()
         },
         async createSales (_, { input }){
-            const result = await db('sales').insert({
-                title: input.title,
-                price: input.price,
-                reference: input.reference,
-                amount: input.amount,
-                available: input.available,
-                id_product: input.id_product
-            })
 
+            const result = await db('sales').insert(input)
             const id = result[0]
             return await db('sales').where({ id }).first()
-        }
+        },
+
+        /* prototype insert array */ 
+        // async createUsers (_, { input }){
+        //     // console.log(input)
+        //     const result = await db('users').insert(input)
+        //     const id = result
+        //     return await db('users').where({ id }).first()
+        // }
     }
 }
