@@ -1,6 +1,6 @@
 {
   "name": "shopping-cart-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "API Shopping Cart GraphQL - NodeJS",
   "main": "server.js",
   "scripts": {
