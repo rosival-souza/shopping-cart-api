@@ -7,6 +7,7 @@ Back-End Aplication test for Software Engineer in JusBrasil using NodeJS, GraphQ
 * Fill in the user and password in the configuration file in the directory src/knexfile.js
 * Open project root and execute first command: npm i 
 * Execute second command: node server.js
+* Open project in your browser http://127.0.0.1:4000/api
 * Front-End this application: https://github.com/rosival-souza/shopping-cart
 
 # Query Application Preview
